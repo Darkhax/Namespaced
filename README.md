@@ -4,8 +4,22 @@ This library provides an implementation of a namespaced identifier, along with a
 ## How to use?
 The only necessary class is the Identifier class. The Identifier class overrides the various compares, equals, and hashcode methods, allowing it to be seamlessly used with all standard maps and collections. The NamespacedRegistry class is an optional class which provides some beneficial functionality such as the ability to get all values mapped with the same global namespace but different internal identifiers. Additionally the INamedspacedValue interface and NamespacedValueRegistry class are provided to allow objects to easily track their own identifiers.
 
-## Maven / Gradle
-Coming soon!
+## Downloads
+This project is available from Maven Central. 
+
+### Gradle
+```
+compile group: 'net.darkhax.namespaced', name: 'namespaced', version: '1.0.0'
+```
+
+### Maven
+```
+<dependency>
+  <groupId>net.darkhax.namespaced</groupId>
+  <artifactId>namespaced</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 ## Example Code
 
